@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("bettan.se")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+06e79ed5d7f96e5d6d91d3dad5954dec26520f0a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d6ed4b9c94f1da2861444be70d0ecbf23429c0de")]
 [assembly: System.Reflection.AssemblyProductAttribute("bettan.se")]
 [assembly: System.Reflection.AssemblyTitleAttribute("bettan.se")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
