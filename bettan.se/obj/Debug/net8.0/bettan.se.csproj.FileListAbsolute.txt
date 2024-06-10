@@ -1030,3 +1030,4 @@ C:\Users\ÄGARE\Dev\bettan.se\bettan.se\obj\Debug\net8.0\bettan.se.dll
 C:\Users\ÄGARE\Dev\bettan.se\bettan.se\obj\Debug\net8.0\refint\bettan.se.dll
 C:\Users\ÄGARE\Dev\bettan.se\bettan.se\obj\Debug\net8.0\bettan.se.pdb
 C:\Users\ÄGARE\Dev\bettan.se\bettan.se\obj\Debug\net8.0\ref\bettan.se.dll
+C:\Users\ÄGARE\Dev\bettan.se\bettan.se\bin\Debug\net8.0\root\sample-data\weather.json

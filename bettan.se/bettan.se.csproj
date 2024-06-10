@@ -7,8 +7,23 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="root\css\app.css" />
+    <Content Include="root\css\bootstrap\bootstrap.min.css" />
+    <Content Include="root\css\bootstrap\bootstrap.min.css.map" />
+    <Content Include="root\css\site.css" />
+    <Content Include="root\favicon.png" />
+    <Content Include="root\icon-192.png" />
+    <Content Include="root\images\bettan.jpg" />
+    <Content Include="root\index.html" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.4" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.0.4" PrivateAssets="all" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="docs\" />
   </ItemGroup>
 
 </Project>

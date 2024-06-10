@@ -13,42 +13,6 @@
       "PackagePath": "staticwebassets\\bettan.se.styles.css"
     },
     {
-      "Id": "C:\\Users\\ÄGARE\\Dev\\bettan.se\\bettan.se\\wwwroot\\css\\app.css",
-      "PackagePath": "staticwebassets\\css\\app.css"
-    },
-    {
-      "Id": "C:\\Users\\ÄGARE\\Dev\\bettan.se\\bettan.se\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
-    },
-    {
-      "Id": "C:\\Users\\ÄGARE\\Dev\\bettan.se\\bettan.se\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
-      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\ÄGARE\\Dev\\bettan.se\\bettan.se\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
-    },
-    {
-      "Id": "C:\\Users\\ÄGARE\\Dev\\bettan.se\\bettan.se\\wwwroot\\favicon.png",
-      "PackagePath": "staticwebassets\\favicon.png"
-    },
-    {
-      "Id": "C:\\Users\\ÄGARE\\Dev\\bettan.se\\bettan.se\\wwwroot\\icon-192.png",
-      "PackagePath": "staticwebassets\\icon-192.png"
-    },
-    {
-      "Id": "C:\\Users\\ÄGARE\\Dev\\bettan.se\\bettan.se\\wwwroot\\images\\bettan.jpg",
-      "PackagePath": "staticwebassets\\images\\bettan.jpg"
-    },
-    {
-      "Id": "C:\\Users\\ÄGARE\\Dev\\bettan.se\\bettan.se\\wwwroot\\index.html",
-      "PackagePath": "staticwebassets\\index.html"
-    },
-    {
-      "Id": "C:\\Users\\ÄGARE\\Dev\\bettan.se\\bettan.se\\wwwroot\\sample-data\\weather.json",
-      "PackagePath": "staticwebassets\\sample-data\\weather.json"
-    },
-    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.bettan.se.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
