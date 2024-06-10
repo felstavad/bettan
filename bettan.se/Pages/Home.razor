@@ -1,0 +1,73 @@
+﻿@page "/"
+
+<div class="profile-container">
+    <div class="profile-picture">
+        <img src="images/bettan.jpg" alt="Profilbild" />
+    </div>
+    <div class="profile-details">
+        <h1>Om mig</h1>
+        <p>Hej! Jag heter Bettan och jag är utbildad systemutvecklare .Net. Förutom detta så är jag vårdadministratör och tycker väldigt mycket om form och färg.</p>
+        <p>Jag tog examen våren 2024 och söker nu efter mitt första uppdrag som systemutvecklare. Här vill jag presentera några små projekt jag arbetat med.</p>
+        <br />
+        <p>Följ mig på sociala medier:</p>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/elisabeth-h%C3%A4llsten-76353a192/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/felstavad" target="_blank">GitHub</a></li>
+            <li><a href="https://www.instagram.com/felstavad" target="_blank">Instagram</a></li>
+        </ul>
+    </div>
+</div>
+
+<style>
+    .profile-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 80px auto;
+        max-width: 800px;
+        padding: 20px;
+        background-color: #e8eded;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .profile-picture img {
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        margin-bottom: 20px;
+    }
+
+    .profile-details h1 {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+    }
+
+    .profile-details p {
+        font-size: 1.2em;
+        line-height: 1.5;
+        margin-bottom: 10px;
+    }
+
+    .profile-details ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .profile-details li {
+        display: inline;
+        margin: 0 10px;
+    }
+
+    .profile-details a {
+        color: #4eacb5;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+        .profile-details a:hover {
+            color: #ff6347;
+        }
+</style>

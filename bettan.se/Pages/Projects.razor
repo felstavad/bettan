@@ -1,0 +1,57 @@
+﻿@page "/projects"
+
+<div class="projects-container">
+    <h1>Mina Projekt</h1>
+    <div class="project">
+        <h2>Projekt 1</h2>
+        <p>Beskrivning av projektet...</p>
+        <a href="https://github.com/felstavad/projekt1" target="_blank">Visa på GitHub</a>
+    </div>
+    <div class="project">
+        <h2>Projekt 2</h2>
+        <p>Beskrivning av projektet...</p>
+        <a href="https://github.com/felstavad/projekt2" target="_blank">Visa på GitHub</a>
+    </div>
+    <!-- Lägg till fler projekt här -->
+</div>
+
+<style>
+    .projects-container {
+        max-width: 800px;
+        margin: 80px auto;
+        padding: 20px;
+        background-color: #e8eded;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+        .projects-container h1 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+    .project {
+        margin-bottom: 20px;
+    }
+
+        .project h2 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+
+        .project p {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+
+        .project a {
+            color: #4eacb5;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+            .project a:hover {
+                color: #ff6347;
+            }
+</style>

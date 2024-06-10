@@ -1,0 +1,36 @@
+﻿<nav class="navbar">
+    <NavLink href="/" class="nav-item" activeclassname="active">Hem</NavLink>
+    <NavLink href="projects" class="nav-item" activeclassname="active">Projekt</NavLink>
+</nav>
+
+<style>
+    .navbar {
+        display: flex;
+        justify-content: center;
+        background-color: #333;
+        padding: 10px 0;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+        font-family: 'Century Gothic', sans-serif;
+    }
+
+    .nav-item {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 15px;
+        font-size: 1.4em;
+        transition: font-size 0.3s ease, color 0.3s ease;
+    }
+
+        .nav-item:hover {
+            font-size: 1.8em;
+            color: #4eacb5;
+        }
+
+    .active {
+        font-weight: bold;
+    }
+</style>
