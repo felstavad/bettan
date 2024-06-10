@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\\u00C4GARE\\Dev\\bettan.se\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6D4FCC38-8B09-4C7F-B01E-6066E1D5631B}|bettan.se\\bettan.se.csproj|c:\\users\\\u00E4gare\\dev\\bettan.se\\bettan.se\\.github\\workflows\\learn-github-actions.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6D4FCC38-8B09-4C7F-B01E-6066E1D5631B}|bettan.se\\bettan.se.csproj|solutionrelative:bettan.se\\.github\\workflows\\learn-github-actions.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6D4FCC38-8B09-4C7F-B01E-6066E1D5631B}|bettan.se\\bettan.se.csproj|c:\\users\\\u00E4gare\\dev\\bettan.se\\bettan.se\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6D4FCC38-8B09-4C7F-B01E-6066E1D5631B}|bettan.se\\bettan.se.csproj|solutionrelative:bettan.se\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -55,6 +59,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "learn-github-actions.yml",
+              "DocumentMoniker": "C:\\Users\\\u00C4GARE\\Dev\\bettan.se\\bettan.se\\.github\\workflows\\learn-github-actions.yml",
+              "RelativeDocumentMoniker": "bettan.se\\.github\\workflows\\learn-github-actions.yml",
+              "ToolTip": "C:\\Users\\\u00C4GARE\\Dev\\bettan.se\\bettan.se\\.github\\workflows\\learn-github-actions.yml",
+              "RelativeToolTip": "bettan.se\\.github\\workflows\\learn-github-actions.yml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-06-10T12:45:25.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\\u00C4GARE\\Dev\\bettan.se\\bettan.se\\wwwroot\\index.html",
               "RelativeDocumentMoniker": "bettan.se\\wwwroot\\index.html",
@@ -67,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\\u00C4GARE\\Dev\\bettan.se\\bettan.se\\Program.cs",
               "RelativeDocumentMoniker": "bettan.se\\Program.cs",
@@ -80,7 +97,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\\u00C4GARE\\Dev\\bettan.se\\bettan.se\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "bettan.se\\wwwroot\\css\\site.css",
@@ -93,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Projects.razor",
               "DocumentMoniker": "C:\\Users\\\u00C4GARE\\Dev\\bettan.se\\bettan.se\\Pages\\Projects.razor",
               "RelativeDocumentMoniker": "bettan.se\\Pages\\Projects.razor",
@@ -106,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\\u00C4GARE\\Dev\\bettan.se\\bettan.se\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "bettan.se\\Pages\\Home.razor",
@@ -119,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\\u00C4GARE\\Dev\\bettan.se\\bettan.se\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "bettan.se\\Layout\\NavMenu.razor",
@@ -132,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Users\\\u00C4GARE\\Dev\\bettan.se\\bettan.se\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "bettan.se\\Layout\\MainLayout.razor",

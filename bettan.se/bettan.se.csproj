@@ -16,6 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include=".github\workflows\learn-github-actions.yml" />
     <None Include="wwwroot\css\app.css" />
     <None Include="wwwroot\css\bootstrap\bootstrap.min.css" />
     <None Include="wwwroot\css\bootstrap\bootstrap.min.css.map" />
