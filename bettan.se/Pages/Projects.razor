@@ -1,5 +1,6 @@
 ﻿@page "/projects"
 
+<div class="background-layer"></div>
 <div class="projects-container">
     <h1>Mina Projekt</h1>
     <div class="project">
@@ -7,6 +8,7 @@
         <p>Beskrivning av projektet...</p>
         <a href="https://github.com/felstavad/projekt1" target="_blank">Visa på GitHub</a>
     </div>
+
     <div class="project">
         <h2>Projekt 2</h2>
         <p>Beskrivning av projektet...</p>
@@ -15,43 +17,72 @@
     <!-- Lägg till fler projekt här -->
 </div>
 
+
 <style>
+
     .projects-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 100px auto;
         max-width: 800px;
-        margin: 80px auto;
-        padding: 20px;
+        padding: 40px;
         background-color: #e8eded;
-        border-radius: 8px;
+        border-radius: 20px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
 
-        .projects-container h1 {
-            text-align: center;
-            font-size: 2.5em;
-            margin-bottom: 20px;
-        }
-
-    .project {
+    .projects-picture img {
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
         margin-bottom: 20px;
     }
 
-        .project h2 {
-            font-size: 1.8em;
-            margin-bottom: 10px;
-        }
+    .background-layer {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background-image: url('/images/lov.jpg');
+        background-size: cover;
+        background-position: center;
+        opacity: 0.5;
+    }
 
-        .project p {
-            font-size: 1.2em;
-            margin-bottom: 10px;
-        }
+    .projects-container h1 {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+    }
 
-        .project a {
-            color: #4eacb5;
-            text-decoration: none;
-            transition: color 0.3s ease;
-        }
+    .projects-container p {
+        font-size: 1.2em;
+        line-height: 1.5;
+        margin-bottom: 10px;
+    }
 
-            .project a:hover {
-                color: #ff6347;
-            }
+    .projects-container ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .projects-container li {
+        display: inline;
+        margin: 0 20px;
+    }
+
+    .projects-container a {
+        color: #4eacb5;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+        .projects-container a:hover {
+            color: #ff6347;
+        }
 </style>
+
