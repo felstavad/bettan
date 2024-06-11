@@ -6,9 +6,10 @@
     <title>bettan.se</title>
     <base href="/" />
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/app.css" /> <!-- Se till att denna rad är korrekt -->
+    <link rel="stylesheet" href="css/app.css" />
     <link rel="icon" type="image/png" href="favicon.png" />
     <link href="bettan.se.styles.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/cdeec73ed6.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div id="app">
@@ -25,5 +26,20 @@
         <a class="dismiss">🗙</a>
     </div>
     <script src="_framework/blazor.webassembly.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            document.getElementById('copyMail').addEventListener('click', function (event) {
+                event.preventDefault(); // Förhindra att länken tar användaren till en ny sida
+                var text = 'elisabeth.hallsten@gmail.com'; // Byt ut mot din egen mailadress
+                var textarea = document.createElement('textarea');
+                textarea.value = text;
+                document.body.appendChild(textarea);
+                textarea.select();
+                document.execCommand('copy');
+                document.body.removeChild(textarea);
+                alert("Mailadressen har kopierats!");
+            });
+        });
+    </script>
 </body>
 </html>

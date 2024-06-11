@@ -1,10 +1,14 @@
-﻿<script src="https://kit.fontawesome.com/cdeec73ed6.js" crossorigin="anonymous"></script>
+﻿@using Microsoft.AspNetCore.Components.Routing
+<body>
+    <nav class="navbar">
+        <div class="nav-links">
+            <NavLink href="/" class="nav-item" activeclassname="active"><i class="fa-solid fa-house"></i></NavLink>
+            <NavLink href="Home" class="nav-item" activeclassname="active">Om mig</NavLink>
+            <NavLink href="Projects" class="nav-item" activeclassname="active">Projekt</NavLink>
+        </div>
+    </nav>
 
-<nav class="navbar">
-    <NavLink href="/" class="nav-item" activeclassname="active"><i class="fa-solid fa-house"></i></NavLink>
-    <NavLink href="Home" class="nav-item" activeclassname="active">Om mig</NavLink>
-    <NavLink href="Projects" class="nav-item" activeclassname="active">Projekt</NavLink>
-</nav>
+    </body>
 
 
 <style>
@@ -25,16 +29,21 @@
         color: #fff;
         text-decoration: none;
         margin: 0 15px;
-        font-size: 1.4em;
-        transition: font-size 0.3s ease, color 0.3s ease;
+        font-size: 1.4em; /* Återgå till ursprunglig textstorlek */
+        transition: color 0.3s ease, transform 0.3s ease; /* Lägg till transform för smidig övergång */
     }
 
         .nav-item:hover {
-            font-size: 1.8em;
             color: #4eacb5;
+            transform: scale(1.2); /* Ändra textstorleken vid hovring */
         }
+
+            .nav-item:hover i {
+                transform: scale(1.2); /* Ändra storlek på ikonen vid hovring */
+            }
 
     .active {
         font-weight: bold;
     }
+
 </style>

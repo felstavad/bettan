@@ -19,7 +19,6 @@
 </div>
 
 <style>
-
     .profile-container {
         display: flex;
         flex-direction: column;
@@ -40,7 +39,7 @@
         object-fit: cover;
         margin-bottom: 10px;
     }
-      
+
     .background-layer {
         position: fixed;
         top: 0;
@@ -51,7 +50,7 @@
         background-image: url('/images/lov.jpg');
         background-size: cover;
         background-position: center;
-        opacity: 0.7; 
+        opacity: 0.7;
     }
 
     .profile-container h1 {
@@ -78,10 +77,12 @@
     .profile-container a {
         color: #4eacb5;
         text-decoration: none;
-        transition: color 0.3s ease;
+        transition: color 0.3s ease, transform 0.3s ease;
+        font-size: 1.2em; /* Behåll samma storlek för länkarna */
     }
 
         .profile-container a:hover {
-            color: #ff6347;
+            color: #ff6347; /* Ändra textfärgen vid hovring */
+            transform: scale(1.4); /* Förstora länken vid hovring */
         }
 </style>
