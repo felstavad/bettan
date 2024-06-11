@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YkJ7Aqj2IZH13bL12MNdIaRN7Zx+vE+OCbMoXIiC4/c=",
+  "Hash": "XNPh+JbxB/It0CEZuLywnlT2avWLieohj/JJH+JoKas=",
   "Source": "bettan.se",
   "BasePath": "/",
   "Mode": "Root",
@@ -7976,25 +7976,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\lov4.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\ÄGARE\\Dev\\bettan.se\\bettan.se\\wwwroot\\images\\spiral.jpg",
-      "SourceId": "bettan.se",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ÄGARE\\Dev\\bettan.se\\bettan.se\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "images/spiral.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\spiral.jpg"
     },
     {
       "Identity": "C:\\Users\\ÄGARE\\Dev\\bettan.se\\bettan.se\\wwwroot\\index.html",

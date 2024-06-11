@@ -49,10 +49,6 @@
       "PackagePath": "staticwebassets\\images\\lov4.jpg"
     },
     {
-      "Id": "C:\\Users\\ÄGARE\\Dev\\bettan.se\\bettan.se\\wwwroot\\images\\spiral.jpg",
-      "PackagePath": "staticwebassets\\images\\spiral.jpg"
-    },
-    {
       "Id": "C:\\Users\\ÄGARE\\Dev\\bettan.se\\bettan.se\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
