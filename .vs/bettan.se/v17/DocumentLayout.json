@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\\u00C4GARE\\Dev\\bettan.se\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6D4FCC38-8B09-4C7F-B01E-6066E1D5631B}|bettan.se\\bettan.se.csproj|c:\\users\\\u00E4gare\\dev\\bettan.se\\bettan.se\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D4FCC38-8B09-4C7F-B01E-6066E1D5631B}|bettan.se\\bettan.se.csproj|solutionrelative:bettan.se\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D4FCC38-8B09-4C7F-B01E-6066E1D5631B}|bettan.se\\bettan.se.csproj|c:\\users\\\u00E4gare\\dev\\bettan.se\\bettan.se\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D4FCC38-8B09-4C7F-B01E-6066E1D5631B}|bettan.se\\bettan.se.csproj|solutionrelative:bettan.se\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6D4FCC38-8B09-4C7F-B01E-6066E1D5631B}|bettan.se\\bettan.se.csproj|c:\\users\\\u00E4gare\\dev\\bettan.se\\bettan.se\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6D4FCC38-8B09-4C7F-B01E-6066E1D5631B}|bettan.se\\bettan.se.csproj|solutionrelative:bettan.se\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -11,28 +19,20 @@
       "RelativeMoniker": "D:0:0:{6D4FCC38-8B09-4C7F-B01E-6066E1D5631B}|bettan.se\\bettan.se.csproj|solutionrelative:bettan.se\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D4FCC38-8B09-4C7F-B01E-6066E1D5631B}|bettan.se\\bettan.se.csproj|c:\\users\\\u00E4gare\\dev\\bettan.se\\bettan.se\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6D4FCC38-8B09-4C7F-B01E-6066E1D5631B}|bettan.se\\bettan.se.csproj|solutionrelative:bettan.se\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D4FCC38-8B09-4C7F-B01E-6066E1D5631B}|bettan.se\\bettan.se.csproj|c:\\users\\\u00E4gare\\dev\\bettan.se\\bettan.se\\pages\\start.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6D4FCC38-8B09-4C7F-B01E-6066E1D5631B}|bettan.se\\bettan.se.csproj|solutionrelative:bettan.se\\pages\\start.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D4FCC38-8B09-4C7F-B01E-6066E1D5631B}|bettan.se\\bettan.se.csproj|c:\\users\\\u00E4gare\\dev\\bettan.se\\bettan.se\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6D4FCC38-8B09-4C7F-B01E-6066E1D5631B}|bettan.se\\bettan.se.csproj|solutionrelative:bettan.se\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D4FCC38-8B09-4C7F-B01E-6066E1D5631B}|bettan.se\\bettan.se.csproj|c:\\users\\\u00E4gare\\dev\\bettan.se\\bettan.se\\pages\\projects.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6D4FCC38-8B09-4C7F-B01E-6066E1D5631B}|bettan.se\\bettan.se.csproj|solutionrelative:bettan.se\\pages\\projects.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6D4FCC38-8B09-4C7F-B01E-6066E1D5631B}|bettan.se\\bettan.se.csproj|c:\\users\\\u00E4gare\\dev\\bettan.se\\bettan.se\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{6D4FCC38-8B09-4C7F-B01E-6066E1D5631B}|bettan.se\\bettan.se.csproj|solutionrelative:bettan.se\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6D4FCC38-8B09-4C7F-B01E-6066E1D5631B}|bettan.se\\bettan.se.csproj|c:\\users\\\u00E4gare\\dev\\bettan.se\\bettan.se\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6D4FCC38-8B09-4C7F-B01E-6066E1D5631B}|bettan.se\\bettan.se.csproj|solutionrelative:bettan.se\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D4FCC38-8B09-4C7F-B01E-6066E1D5631B}|bettan.se\\bettan.se.csproj|c:\\users\\\u00E4gare\\dev\\bettan.se\\bettan.se\\pages\\projects.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D4FCC38-8B09-4C7F-B01E-6066E1D5631B}|bettan.se\\bettan.se.csproj|solutionrelative:bettan.se\\pages\\projects.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D4FCC38-8B09-4C7F-B01E-6066E1D5631B}|bettan.se\\bettan.se.csproj|c:\\users\\\u00E4gare\\dev\\bettan.se\\bettan.se\\pages\\start.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D4FCC38-8B09-4C7F-B01E-6066E1D5631B}|bettan.se\\bettan.se.csproj|solutionrelative:bettan.se\\pages\\start.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,7 +58,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "app.css",
               "DocumentMoniker": "C:\\Users\\\u00C4GARE\\Dev\\bettan.se\\bettan.se\\wwwroot\\css\\app.css",
               "RelativeDocumentMoniker": "bettan.se\\wwwroot\\css\\app.css",
@@ -66,24 +66,25 @@
               "RelativeToolTip": "bettan.se\\wwwroot\\css\\app.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-11T09:16:34.758Z"
+              "WhenOpened": "2024-06-11T09:16:34.758Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\\u00C4GARE\\Dev\\bettan.se\\bettan.se\\wwwroot\\index.html",
               "RelativeDocumentMoniker": "bettan.se\\wwwroot\\index.html",
               "ToolTip": "C:\\Users\\\u00C4GARE\\Dev\\bettan.se\\bettan.se\\wwwroot\\index.html",
               "RelativeToolTip": "bettan.se\\wwwroot\\index.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-06-10T12:10:38.236Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\\u00C4GARE\\Dev\\bettan.se\\bettan.se\\Program.cs",
               "RelativeDocumentMoniker": "bettan.se\\Program.cs",
@@ -91,50 +92,51 @@
               "RelativeToolTip": "bettan.se\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T11:58:53.319Z"
+              "WhenOpened": "2024-06-10T11:58:53.319Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Projects.razor",
               "DocumentMoniker": "C:\\Users\\\u00C4GARE\\Dev\\bettan.se\\bettan.se\\Pages\\Projects.razor",
               "RelativeDocumentMoniker": "bettan.se\\Pages\\Projects.razor",
               "ToolTip": "C:\\Users\\\u00C4GARE\\Dev\\bettan.se\\bettan.se\\Pages\\Projects.razor",
               "RelativeToolTip": "bettan.se\\Pages\\Projects.razor",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAADUAAAAUAAAA",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAAAFQAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-10T10:29:45.746Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Start.razor",
               "DocumentMoniker": "C:\\Users\\\u00C4GARE\\Dev\\bettan.se\\bettan.se\\Pages\\Start.razor",
               "RelativeDocumentMoniker": "bettan.se\\Pages\\Start.razor",
               "ToolTip": "C:\\Users\\\u00C4GARE\\Dev\\bettan.se\\bettan.se\\Pages\\Start.razor",
               "RelativeToolTip": "bettan.se\\Pages\\Start.razor",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAACEAAAAUAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-11T07:49:22.059Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\\u00C4GARE\\Dev\\bettan.se\\bettan.se\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "bettan.se\\Pages\\Home.razor",
               "ToolTip": "C:\\Users\\\u00C4GARE\\Dev\\bettan.se\\bettan.se\\Pages\\Home.razor",
               "RelativeToolTip": "bettan.se\\Pages\\Home.razor",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAADUAAAAUAAAA",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAAFQAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-10T10:16:40.391Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\\u00C4GARE\\Dev\\bettan.se\\bettan.se\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "bettan.se\\Layout\\NavMenu.razor",
@@ -147,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Users\\\u00C4GARE\\Dev\\bettan.se\\bettan.se\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "bettan.se\\Layout\\MainLayout.razor",
