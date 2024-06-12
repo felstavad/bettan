@@ -1,21 +1,66 @@
 ﻿@page "/projects"
 
 <div class="background-layer"></div>
+
 <div class="projects-container">
     <h1>Mina Projekt</h1>
+   
     <div class="project">
-        <h2>Projekt 1</h2>
-        <p>Beskrivning av projektet...</p>
-        <a href="https://github.com/felstavad/projekt1" target="_blank">Visa på GitHub</a>
+        <h2>TicTacToe</h2>
+        <p>Ett enkelt spel som windowsapplikation .Net, WPF.</p>
+        <div class="slideshow">
+            <img src="/images/tictactoe.png" class="slide" />
+            <img src="/images/tictactoe2.png" class="slide" />
+            <img src="/images/tictactoe3.png" class="slide" />
+        </div>
+        <br />
+        <a href="https://github.com/felstavad/TicTacToe" target="_blank">Visa på GitHub</a>
     </div>
+    <br /><br />
 
     <div class="project">
-        <h2>Projekt 2</h2>
-        <p>Beskrivning av projektet...</p>
-        <a href="https://github.com/felstavad/projekt2" target="_blank">Visa på GitHub</a>
+        <h2>Hobbyapplikation</h2>
+        <p>En windowsapplikation med lokal databas .Net, GUI och MVVM designmönster.</p>
+        <div class="slideshow">
+            <img src="/images/hobbyapp.png" class="slide" />
+            <img src="/images/hobbyapp2.png" class="slide" />
+        </div>
+        <br />
+        <a href="https://github.com/felstavad/HobbyWPF" target="_blank">Visa på GitHub</a>
     </div>
-    <!-- Lägg till fler projekt här -->
+    <br /><br />
+
+    <div class="project">
+        <h2>Bilbokning</h2>
+        <p>En webbapplikation ASP.Net, full CRUD via webAPI.</p>
+        <div class="slideshow">
+            <img src="/images/cars.png" class="slide" />
+            <img src="/images/cars2.png" class="slide" />
+        </div>
+        <br />
+        <a href="https://github.com/felstavad/Car-rental-project" target="_blank">Visa på GitHub</a>
+    </div>
 </div>
+
+<script>
+    const slides = document.querySelectorAll('.slide');
+
+    slides.forEach(slide => {
+        slide.addEventListener('click', function () {
+            if (slide.classList.contains('large')) {
+                slide.style.transform = 'scale(1)';
+                slide.classList.remove('large');
+            } else {
+                slides.forEach(s => {
+                    s.style.transform = 'scale(1)';
+                    s.classList.remove('large');
+                });
+                slide.style.transform = 'scale(3)';
+                slide.classList.add('large');
+            }
+        });
+    });
+</script>
 
 
 <style>
@@ -84,5 +129,9 @@
         .projects-container a:hover {
             color: #bc42f5;
         }
-</style>
 
+    .slideshow {
+        display: flex;
+        justify-content: space-around; /* Justera avståndet mellan bilderna */
+    }
+</style>
