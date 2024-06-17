@@ -112,11 +112,11 @@ code {
     justify-content: space-around;
     margin-top: 20px;
 }
-
+/*
 .slide {
-    width: calc(33% - 10px); /* Justera bredden på bilderna */
+    width: calc(33% - 10px);
     max-height: 200px;
-    margin: 10px; /* Minska marginalen mellan bilderna */
+    margin: 10px; 
     transition: transform 0.3s;
     cursor: pointer;
 }
@@ -129,7 +129,7 @@ code {
         .slide.large:not(:hover) {
             transform: scale(1);
         }
-
+*/
 
 
 .fullscreen {

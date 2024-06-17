@@ -1,68 +1,81 @@
 ﻿@page "/"
 
-<div class="start-container">
-    <h1>Välkommen!</h1>
-</div>
-
-<div class="background-layer"></div>
-<style>
-    .start-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        margin: 100px auto;
-        max-width: 800px;
-        padding: 40px;
-        position: relative;
-        background-color: #e8eded;
-        border-radius: 20px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-
-   
-    .background-layer {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        z-index: -1;
-        background-image: url('/images/lov.jpg');
-        background-size: cover;
-        background-position: center;
-        opacity: 0.7; 
-    }
-
-    .start-container h1 {
-        font-size: 2.5em;
-        margin-bottom: 20px;
-    }
-
-    .start-container p {
-        font-size: 1.2em;
-        line-height: 1.5;
-        margin-bottom: 20px;
-    }
-
-    .start-container ul {
-        list-style: none;
-        padding: 0;
-    }
-
-    .start-container li {
-        display: inline;
-        margin: 0 20px;
-    }
-
-    .start-container a {
-        color: #4eacb5;
-        text-decoration: none;
-        transition: color 0.3s ease;
-    }
-
-        .start-container a:hover {
-            color: #ff6347;
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Välkommen!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
         }
-</style>
 
+        .start-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin: 30px auto;
+            max-width: 700px;
+            padding: 40px;
+            position: relative;
+            background-color: #e8eded;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .background-layer {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background-image: url('/images/lov.jpg');
+            background-size: cover;
+            background-position: center;
+            opacity: 0.7;
+        }
+
+        .start-container h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3em;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .start-container p {
+            font-size: 1.2em;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .start-container a {
+            color: #4eacb5;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+            .start-container a:hover {
+                color: #ff6347;
+            }
+    </style>
+</head>
+<body>
+    <div class="background-layer"></div>
+
+    <div class="start-container">
+        <h1>Välkommen till Bettan.se</h1>
+        <p>Här kan du se några utvalda projekt som jag jobbat på och läsa lite mer om vem jag är.</p>
+        <br />
+        <p><i>"Whenever someone calls me ugly I get super sad and hug them, because I know how tough life is for the visually impaired.”</i> — Will Ferrell</p>
+    </div>
+</body>
+</html>

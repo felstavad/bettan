@@ -33,6 +33,18 @@
       "PackagePath": "staticwebassets\\icon-192.png"
     },
     {
+      "Id": "C:\\Users\\ÄGARE\\Dev\\bettan.se\\bettan.se\\wwwroot\\images\\Procreate1.jpg",
+      "PackagePath": "staticwebassets\\images\\Procreate1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ÄGARE\\Dev\\bettan.se\\bettan.se\\wwwroot\\images\\Procreate2.jpg",
+      "PackagePath": "staticwebassets\\images\\Procreate2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ÄGARE\\Dev\\bettan.se\\bettan.se\\wwwroot\\images\\Procreate3.jpg",
+      "PackagePath": "staticwebassets\\images\\Procreate3.jpg"
+    },
+    {
       "Id": "C:\\Users\\ÄGARE\\Dev\\bettan.se\\bettan.se\\wwwroot\\images\\SouthRiver.jpg",
       "PackagePath": "staticwebassets\\images\\SouthRiver.jpg"
     },
@@ -41,40 +53,76 @@
       "PackagePath": "staticwebassets\\images\\affish.jpg"
     },
     {
+      "Id": "C:\\Users\\ÄGARE\\Dev\\bettan.se\\bettan.se\\wwwroot\\images\\az.png",
+      "PackagePath": "staticwebassets\\images\\az.png"
+    },
+    {
       "Id": "C:\\Users\\ÄGARE\\Dev\\bettan.se\\bettan.se\\wwwroot\\images\\bettan.jpg",
       "PackagePath": "staticwebassets\\images\\bettan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ÄGARE\\Dev\\bettan.se\\bettan.se\\wwwroot\\images\\ca.png",
+      "PackagePath": "staticwebassets\\images\\ca.png"
     },
     {
       "Id": "C:\\Users\\ÄGARE\\Dev\\bettan.se\\bettan.se\\wwwroot\\images\\cars.png",
       "PackagePath": "staticwebassets\\images\\cars.png"
     },
     {
-      "Id": "C:\\Users\\ÄGARE\\Dev\\bettan.se\\bettan.se\\wwwroot\\images\\cars2.png",
-      "PackagePath": "staticwebassets\\images\\cars2.png"
+      "Id": "C:\\Users\\ÄGARE\\Dev\\bettan.se\\bettan.se\\wwwroot\\images\\fb.png",
+      "PackagePath": "staticwebassets\\images\\fb.png"
     },
     {
-      "Id": "C:\\Users\\ÄGARE\\Dev\\bettan.se\\bettan.se\\wwwroot\\images\\hobbyapp.png",
-      "PackagePath": "staticwebassets\\images\\hobbyapp.png"
+      "Id": "C:\\Users\\ÄGARE\\Dev\\bettan.se\\bettan.se\\wwwroot\\images\\hbh.png",
+      "PackagePath": "staticwebassets\\images\\hbh.png"
+    },
+    {
+      "Id": "C:\\Users\\ÄGARE\\Dev\\bettan.se\\bettan.se\\wwwroot\\images\\hbhbig.png",
+      "PackagePath": "staticwebassets\\images\\hbhbig.png"
+    },
+    {
+      "Id": "C:\\Users\\ÄGARE\\Dev\\bettan.se\\bettan.se\\wwwroot\\images\\hdfgg.jpg",
+      "PackagePath": "staticwebassets\\images\\hdfgg.jpg"
     },
     {
       "Id": "C:\\Users\\ÄGARE\\Dev\\bettan.se\\bettan.se\\wwwroot\\images\\hobbyapp2.png",
       "PackagePath": "staticwebassets\\images\\hobbyapp2.png"
     },
     {
+      "Id": "C:\\Users\\ÄGARE\\Dev\\bettan.se\\bettan.se\\wwwroot\\images\\hobi.png",
+      "PackagePath": "staticwebassets\\images\\hobi.png"
+    },
+    {
       "Id": "C:\\Users\\ÄGARE\\Dev\\bettan.se\\bettan.se\\wwwroot\\images\\lov.jpg",
       "PackagePath": "staticwebassets\\images\\lov.jpg"
     },
     {
-      "Id": "C:\\Users\\ÄGARE\\Dev\\bettan.se\\bettan.se\\wwwroot\\images\\tictactoe.png",
-      "PackagePath": "staticwebassets\\images\\tictactoe.png"
+      "Id": "C:\\Users\\ÄGARE\\Dev\\bettan.se\\bettan.se\\wwwroot\\images\\lov3.jpg",
+      "PackagePath": "staticwebassets\\images\\lov3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ÄGARE\\Dev\\bettan.se\\bettan.se\\wwwroot\\images\\lov4.jpg",
+      "PackagePath": "staticwebassets\\images\\lov4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ÄGARE\\Dev\\bettan.se\\bettan.se\\wwwroot\\images\\nai.png",
+      "PackagePath": "staticwebassets\\images\\nai.png"
+    },
+    {
+      "Id": "C:\\Users\\ÄGARE\\Dev\\bettan.se\\bettan.se\\wwwroot\\images\\seeds.png",
+      "PackagePath": "staticwebassets\\images\\seeds.png"
+    },
+    {
+      "Id": "C:\\Users\\ÄGARE\\Dev\\bettan.se\\bettan.se\\wwwroot\\images\\sr.png",
+      "PackagePath": "staticwebassets\\images\\sr.png"
+    },
+    {
+      "Id": "C:\\Users\\ÄGARE\\Dev\\bettan.se\\bettan.se\\wwwroot\\images\\tic.png",
+      "PackagePath": "staticwebassets\\images\\tic.png"
     },
     {
       "Id": "C:\\Users\\ÄGARE\\Dev\\bettan.se\\bettan.se\\wwwroot\\images\\tictactoe2.png",
       "PackagePath": "staticwebassets\\images\\tictactoe2.png"
-    },
-    {
-      "Id": "C:\\Users\\ÄGARE\\Dev\\bettan.se\\bettan.se\\wwwroot\\images\\tictactoe3.png",
-      "PackagePath": "staticwebassets\\images\\tictactoe3.png"
     },
     {
       "Id": "C:\\Users\\ÄGARE\\Dev\\bettan.se\\bettan.se\\wwwroot\\index.html",

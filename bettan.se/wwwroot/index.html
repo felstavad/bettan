@@ -29,8 +29,8 @@
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             document.getElementById('copyMail').addEventListener('click', function (event) {
-                event.preventDefault(); // Förhindra att länken tar användaren till en ny sida
-                var text = 'elisabeth.hallsten@gmail.com'; // Byt ut mot din egen mailadress
+                event.preventDefault();
+                var text = 'elisabeth.hallsten@gmail.com';
                 var textarea = document.createElement('textarea');
                 textarea.value = text;
                 document.body.appendChild(textarea);

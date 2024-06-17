@@ -4,11 +4,18 @@
         <div class="nav-links">
             <NavLink href="/" class="nav-item" activeclassname="active"><i class="fa-solid fa-house"></i></NavLink>
             <NavLink href="Home" class="nav-item" activeclassname="active">Om mig</NavLink>
-            <NavLink href="Projects" class="nav-item" activeclassname="active">Projekt</NavLink>
+            <div class="dropdown">
+                <NavLink href="Projects" class="nav-item" activeclassname="active">Projekt</NavLink>
+                <div class="dropdown-content">
+                    <NavLink href="Projects" class="dropdown-item" activeclassname="active">.Net</NavLink>
+                    <NavLink href="Graphics" class="dropdown-item" activeclassname="active">Graphics</NavLink>
+                </div>
+            </div>
         </div>
     </nav>
+</body>
 
-    </body>
+
 
 
 <style>
@@ -25,25 +32,56 @@
         font-family: 'Century Gothic', sans-serif;
     }
 
+    .nav-links {
+        display: flex;
+        align-items: center;
+    }
+
     .nav-item {
         color: #fff;
         text-decoration: none;
         margin: 0 15px;
-        font-size: 1.4em; /* Återgå till ursprunglig textstorlek */
-        transition: color 0.3s ease, transform 0.3s ease; /* Lägg till transform för smidig övergång */
+        font-size: 1.4em;
+        transition: color 0.3s ease, transform 0.3s ease;
     }
 
         .nav-item:hover {
             color: #4eacb5;
-            transform: scale(1.2); /* Ändra textstorleken vid hovring */
+            transform: scale(1.2);
         }
-
-            .nav-item:hover i {
-                transform: scale(1.2); /* Ändra storlek på ikonen vid hovring */
-            }
 
     .active {
         font-weight: bold;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #333;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+        .dropdown-content .dropdown-item {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            font-size: 1.2em;
+        }
+
+            .dropdown-content .dropdown-item:hover {
+                background-color: #575757;
+            }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
     }
 
 </style>

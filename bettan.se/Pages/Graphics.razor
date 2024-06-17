@@ -1,0 +1,188 @@
+﻿@page "/graphics"
+
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mina grafiska projekt</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Century Gothic', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        .background-layer {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background-image: url('/images/lov.jpg');
+            background-size: cover;
+            background-position: center;
+            opacity: 0.7;
+        }
+
+        .graphics-container {
+            max-width: 700px;
+            min-height: 600px;
+            margin: 30px auto;
+            padding: 40px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 20px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .graphics-container h1 {
+            font-size: 2.5em;
+            margin-bottom: 40px;
+            color: #4eacb5;
+        }
+
+        .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px; 
+    justify-content: center;
+}
+
+
+  .gallery-item {
+    width: 130px; 
+    height: 130px; 
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #000; 
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    transition: transform 0.3s ease;
+}
+.second-gallery {
+    margin-top: 40px;
+}
+
+
+
+        .gallery-item img:hover {
+            transform: scale(1.05);
+        }
+
+        .lightbox {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            z-index: 1000;
+        }
+
+        .lightbox img {
+            max-width: 90%;
+            max-height: 80%;
+            border-radius: 10px;
+        }
+
+        .lightbox .description {
+            color: #fff;
+            margin-top: 20px;
+            font-size: 1.2em;
+            text-align: center;
+        }
+
+        .lightbox .close {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            font-size: 2em;
+            color: #fff;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="background-layer"></div>
+    <div class="graphics-container">
+        <h1 style="color: #000;">Mina grafiska projekt</h1>
+        <p>Några projekt jag gjort i Photoshop, ProCreate och Illustrator.</p>
+        <p>Bara för skojs skull.</p>
+        <br>
+
+        <div class="gallery">
+            <div class="gallery-item" data-description="Filmaffish på en feministisk antihjälte. Photoshop." data-full="/images/affish.jpg">
+                <img src="/images/fb.png" alt="Femme Brutal" class="slide" />
+            </div>
+            <div class="gallery-item" data-description="Ett litet porträtt på en god vän, 40-årspresent. Procreate." data-full="/images/Procreate2.jpg">
+                <img src="/images/seeds.png" alt="Seeds" class="slide" />
+            </div>
+            <div class="gallery-item" data-description="Två goda vänner gifte sig i smyg, jag förevigade sveket. Procreate." data-full="/images/Procreate1.jpg">
+                <img src="/images/az.png" alt="Bröllop" class="slide" />
+            </div>
+            </div>
+            <div class="gallery second-gallery"
+            <div class="gallery-item" data-description="Min vän Naima. Procreate." data-full="/images/Procreate3.jpg">
+                <img src="/images/nai.png" alt="Naima" class="slide" />
+            </div>
+            <div class="gallery-item" data-description="Förslag på logga till byns MC-klubb. Photoshop." data-full="/images/SouthRiver.jpg">
+                <img src="/images/sr.png" alt="South River" class="slide" />
+            </div>
+            <div class="gallery-item" data-description="Hällsten By Hand. Vektoriserad bild för stor magnetskylt till skåpbil. Illustrator" data-full="/images/hbhbig.png">
+                <img src="/images/hbh.png" alt="South River" class="slide" />
+            </div>
+        </div>
+    </div>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img id="lightbox-img" src="" alt="Lightbox Image">
+        <div id="lightbox-description" class="description"></div>
+    </div>
+
+    <script>
+        const slides = document.querySelectorAll('.slide');
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = document.getElementById('lightbox-img');
+        const lightboxDescription = document.getElementById('lightbox-description');
+        const closeBtn = document.querySelector('.lightbox .close');
+
+        slides.forEach(slide => {
+            slide.addEventListener('click', function () {
+                lightboxImg.src = this.parentElement.getAttribute('data-full');
+                lightboxDescription.innerText = this.parentElement.getAttribute('data-description');
+                lightbox.style.display = 'flex';
+            });
+        });
+
+        closeBtn.addEventListener('click', function () {
+            lightbox.style.display = 'none';
+        });
+
+        lightbox.addEventListener('click', function (e) {
+            if (e.target !== lightboxImg && e.target !== lightboxDescription) {
+                lightbox.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
+

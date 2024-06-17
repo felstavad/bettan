@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "bettan.se",
   "resources": {
-    "hash": "sha256-C0qKDZECz4uMwMkBP5NqtUqfvTBPi/am7GLCfHUzNc8=",
+    "hash": "sha256-qM8nlC1kh/2y3UG3SHRErdV98W79IAkZ4ISZgVgKGCY=",
     "jsModuleNative": {
       "dotnet.native.8.0.4.97rzhogim8.js": "sha256-ju0+XWE0ihz554eKEj0HQ8Opa61xpbUIaX5/MNo8we4="
     },
@@ -208,10 +208,10 @@
       "mscorlib.wasm": "sha256-VCfYgt1mcjITabSTosCDVZ+68ea3Z7kakTFaLNLG+18=",
       "netstandard.wasm": "sha256-YOZxxR9PM3Dltcijfb0Q4FD39DkWZbZ1e2ScbZDvWJ4=",
       "System.Private.CoreLib.wasm": "sha256-NrT1QkAzVU//2wgK9vXdq77lCGvLJ4IOZ+Aegesyanc=",
-      "bettan.se.wasm": "sha256-F6qYJwfCFPWWuyS+PyGhkUZYxwBlfZ3woACI9r9hVnM="
+      "bettan.se.wasm": "sha256-rrNnUR0sv8Q+jSqPHc1wlwN5XV5QEBFgNmb7rHN+kc8="
     },
     "pdb": {
-      "bettan.se.pdb": "sha256-ktcaSmZPOD9UT/Kw//PtPbpkYWmKw5hLd4sLGjmjOb0="
+      "bettan.se.pdb": "sha256-lI8LhGMzM82wk2sH7Kjw6A+m4sdYLNGuzJBDKcBTI4s="
     }
   },
   "cacheBootResources": true,

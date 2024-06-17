@@ -1,137 +1,187 @@
 ﻿@page "/projects"
 
-<div class="background-layer"></div>
-
-<div class="projects-container">
-    <h1>Mina Projekt</h1>
-   
-    <div class="project">
-        <h2>TicTacToe</h2>
-        <p>Ett enkelt spel som windowsapplikation .Net, WPF.</p>
-        <div class="slideshow">
-            <img src="/images/tictactoe.png" class="slide" />
-            <img src="/images/tictactoe2.png" class="slide" />
-            <img src="/images/tictactoe3.png" class="slide" />
-        </div>
-        <br />
-        <a href="https://github.com/felstavad/TicTacToe" target="_blank">Visa på GitHub</a>
-    </div>
-    <br /><br />
-
-    <div class="project">
-        <h2>Hobbyapplikation</h2>
-        <p>En windowsapplikation med lokal databas .Net, GUI och MVVM designmönster.</p>
-        <div class="slideshow">
-            <img src="/images/hobbyapp.png" class="slide" />
-            <img src="/images/hobbyapp2.png" class="slide" />
-        </div>
-        <br />
-        <a href="https://github.com/felstavad/HobbyWPF" target="_blank">Visa på GitHub</a>
-    </div>
-    <br /><br />
-
-    <div class="project">
-        <h2>Bilbokning</h2>
-        <p>En webbapplikation ASP.Net, full CRUD via webAPI.</p>
-        <div class="slideshow">
-            <img src="/images/cars.png" class="slide" />
-            <img src="/images/cars2.png" class="slide" />
-        </div>
-        <br />
-        <a href="https://github.com/felstavad/Car-rental-project" target="_blank">Visa på GitHub</a>
-    </div>
-</div>
-
-<script>
-    const slides = document.querySelectorAll('.slide');
-
-    slides.forEach(slide => {
-        slide.addEventListener('click', function () {
-            if (slide.classList.contains('large')) {
-                slide.style.transform = 'scale(1)';
-                slide.classList.remove('large');
-            } else {
-                slides.forEach(s => {
-                    s.style.transform = 'scale(1)';
-                    s.classList.remove('large');
-                });
-                slide.style.transform = 'scale(3)';
-                slide.classList.add('large');
-            }
-        });
-    });
-</script>
-
-
-<style>
-
-    .projects-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        margin: 100px auto;
-        max-width: 800px;
-        padding: 40px;
-        background-color: #e8eded;
-        border-radius: 20px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-
-    .projects-picture img {
-        border-radius: 50%;
-        width: 150px;
-        height: 150px;
-        object-fit: cover;
-        margin-bottom: 20px;
-    }
-
-    .background-layer {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        z-index: -1;
-        background-image: url('/images/lov.jpg');
-        background-size: cover;
-        background-position: center;
-        opacity: 0.7;
-    }
-
-    .projects-container h1 {
-        font-size: 2.5em;
-        margin-bottom: 20px;
-    }
-
-    .projects-container p {
-        font-size: 1.2em;
-        line-height: 1.5;
-        margin-bottom: 10px;
-    }
-
-    .projects-container ul {
-        list-style: none;
-        padding: 0;
-    }
-
-    .projects-container li {
-        display: inline;
-        margin: 0 20px;
-    }
-
-    .projects-container a {
-        color: #4eacb5;
-        text-decoration: none;
-        transition: color 0.3s ease;
-    }
-
-        .projects-container a:hover {
-            color: #bc42f5;
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mina .Net-projekt</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Century Gothic', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
         }
 
-    .slideshow {
-        display: flex;
-        justify-content: space-around; /* Justera avståndet mellan bilderna */
-    }
-</style>
+        .background-layer {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background-image: url('/images/lov.jpg');
+            background-size: cover;
+            background-position: center;
+            opacity: 0.7;
+        }
+
+        .graphics-container {
+            max-width: 700px;
+            min-height: 500px;
+            margin: 30px auto;
+            padding: 40px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 20px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+            .graphics-container h1 {
+                font-size: 2.5em;
+                margin-bottom: 40px;
+                color: #4eacb5;
+            }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+            justify-content: center;
+            padding: 0;
+            list-style-type: none;
+        }
+
+        .gallery-item {
+            width: 125px;
+            height: 125px;
+            overflow: hidden;
+            border: 2px solid #000;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-sizing: border-box;
+            position: relative;
+        }
+
+            .gallery-item img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transition: transform 0.3s ease;
+            }
+
+            .gallery-item:hover img {
+                transform: scale(1.05);
+            }
+
+        .lightbox {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            z-index: 1000;
+        }
+
+            .lightbox img {
+                max-width: 90%;
+                max-height: 80%;
+                border-radius: 10px;
+            }
+
+            .lightbox .description {
+                color: #fff;
+                margin-top: 20px;
+                font-size: 1.2em;
+                text-align: center;
+            }
+
+                .lightbox .description a {
+                    color: #4eacb5;
+                    text-decoration: none;
+                    transition: color 0.3s ease;
+                }
+
+                    .lightbox .description a:hover {
+                        color: #fff;
+                        text-decoration: underline;
+                    }
+
+            .lightbox .close {
+                position: absolute;
+                top: 20px;
+                right: 30px;
+                font-size: 2em;
+                color: #fff;
+                text-decoration: none;
+                cursor: pointer;
+            }
+    </style>
+</head>
+<body>
+    <div class="background-layer"></div>
+    <div class="graphics-container">
+        <h1 style="color: #000;">Mina .Net-projekt</h1>
+        <p>Några små projekt jag gjort under utbildningen.</p>
+        <p>Mer eller mindre seriösa, roligt har det varit hela vägen.</p>
+        <br>
+        <ul class="gallery">
+            <li class="gallery-item" data-description="Ett enkelt spel som windowsapplikation .Net, WPF." data-link="https://github.com/felstavad/TicTacToe" data-full="/images/tictactoe2.png">
+                <img src="/images/tic.png" alt="TicTacToe" class="slide" />
+            </li>
+            <li class="gallery-item" data-description="En windowsapplikation med lokal databas .Net, GUI och MVVM designmönster." data-link="https://github.com/felstavad/HobbyWPF" data-full="/images/hobbyapp2.png">
+                <img src="/images/hobi.png" alt="Hobby" class="slide" />
+            </li>
+            <li class="gallery-item" data-description="En webbapplikation ASP.Net, full CRUD via webAPI." data-link="https://github.com/felstavad/Car-rental-project" data-full="/images/cars.png">
+                <img src="/images/ca.png" alt="Bilar" class="slide" />
+            </li>
+        </ul>
+    </div>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img id="lightbox-img" src="" alt="Lightbox Image">
+        <div id="lightbox-description" class="description"></div>
+    </div>
+
+    <script>
+        const slides = document.querySelectorAll('.slide');
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = document.getElementById('lightbox-img');
+        const lightboxDescription = document.getElementById('lightbox-description');
+        const closeBtn = document.querySelector('.lightbox .close');
+
+        slides.forEach(slide => {
+            slide.addEventListener('click', function () {
+                const fullImage = this.parentElement.getAttribute('data-full');
+                const description = this.parentElement.getAttribute('data-description');
+                const link = this.parentElement.getAttribute('data-link');
+
+                lightboxImg.src = fullImage;
+                lightboxDescription.innerHTML = `${description}<br><a href="${link}" target="_blank">Github</a>`;
+                lightbox.style.display = 'flex';
+            });
+        });
+
+        closeBtn.addEventListener('click', function () {
+            lightbox.style.display = 'none';
+        });
+
+        lightbox.addEventListener('click', function (e) {
+            if (e.target !== lightboxImg && e.target !== lightboxDescription) {
+                lightbox.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
